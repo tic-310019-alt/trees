@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Empaquetado del addon (se genera con tools/package.py, no se versiona)
+*.zip
+dist/
+build/
+
+# Entorno de referencia de bpy (no forma parte del repo)
+.bpyroot/
+
+# Sistema
+.DS_Store
+Thumbs.db

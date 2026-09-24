@@ -1,0 +1,32 @@
+schema_version = "1.0.0"
+
+id = "pcm_studio"
+version = "1.0.0"
+name = "PCM Studio — Procedural Character Materials"
+tagline = "Materiales PBR procedurales game-ready para personajes humanos y animales, por selección de caras"
+maintainer = "PCM Studio <pcm.studio.addon@proton.me>"
+type = "add-on"
+
+website = "https://github.com/tic-310019-alt/trees"
+
+tags = ["Material", "Paint", "UV", "Bake", "Pipeline", "Render"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+copyright = [
+  "2026 PCM Studio",
+]
+
+[permissions]
+files = "Exportar los mapas de textura bakeados a disco y leer/guardar presets del usuario"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.git/",
+  "/*.zip",
+]
