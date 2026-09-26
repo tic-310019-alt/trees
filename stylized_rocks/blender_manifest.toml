@@ -1,0 +1,33 @@
+schema_version = "1.0.0"
+
+id = "stylized_rocks"
+version = "1.0.0"
+name = "Stylized Rock Forge"
+tagline = "Rocas estilizadas procedurales con geometría, material y normales"
+maintainer = "Stylized Rock Forge <stylized.rocks@proton.me>"
+type = "add-on"
+
+website = "https://github.com/tic-310019-alt/trees"
+
+# Blender 5.2 es el objetivo de producción de esta extensión.
+blender_version_min = "5.2.0"
+
+tags = ["Modeling", "Material", "Mesh", "Procedural", "Render"]
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+copyright = [
+  "2026 Stylized Rock Forge",
+]
+
+[permissions]
+files = "Guardar mapas normales bakeados cuando el usuario indica una ruta de salida"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.git/",
+  "/*.zip",
+]
